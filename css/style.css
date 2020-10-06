@@ -1,0 +1,169 @@
+/* Reset CSS */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    color: #444;
+}
+
+header{
+    display: flex;
+    justify-content: space-evenly;
+
+    padding: 2rem;
+}
+
+.logo img{
+    width: 211px;
+}
+
+.sign-in{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+input[type='text'],
+input[type='email'],
+input[type='password']{
+    width: 180px;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+section{
+    padding: 3rem 0 4rem 0;
+}
+
+h1{
+    font-size: 3rem;
+    font-weight: normal;
+}
+
+.title{
+    margin-bottom: 2rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.gray{
+    background-color: #f7f7f7;
+}
+
+.container{
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 1rem;
+}
+
+.hero{
+    width: 60%;
+    margin: auto;
+}
+
+.intro p{
+    margin: 1rem 0;
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+.button{
+    padding: 10px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-right: 5px;
+    border: none;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.primary{
+    background-color: #3396f3;
+    color: #fff;
+}
+
+.secondary{
+    background-color: #fff;
+    color: #444;
+}
+
+.intro .cta{
+    margin: 2rem 0;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    height: 150px;
+    width: 18%;
+    border-radius: 10px;
+
+    color: #fff;
+    font-size: 1.7rem;
+}
+
+.card.red{
+    background-color: #ec454e;
+}
+
+.card.blue{
+    background-color: #42b0f8;
+}
+
+.card.purple{
+    background-color: #9e69d5;
+}
+
+.card.yellow{
+    background-color: #f4a823;
+}
+
+.card.green{
+    background-color: #3cbfa1;
+}
+
+.members{
+    display: flex;
+    justify-content: space-between;
+}
+
+.member img{
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+}
+
+footer{
+    background-color: #3788bf;
+}
+
+footer ul{
+    display: flex;
+    padding-top: 3rem;
+    list-style-type: none;
+    justify-content: space-evenly;
+}
+
+footer a{
+    color: #fff;
+    text-decoration: none;
+}
+
+footer p.copyright{
+    text-align: center;
+    padding: 3rem 0;
+    color: rgba(255, 255, 255, 0.8);
+}
